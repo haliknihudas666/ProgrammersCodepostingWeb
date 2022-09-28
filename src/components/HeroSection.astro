@@ -1,0 +1,69 @@
+---
+import Container from "./Container.astro";
+---
+
+<div class="relative">
+  <div
+    aria-hidden="true"
+    class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20"
+  >
+    <div
+      class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"
+    >
+    </div>
+    <div
+      class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"
+    >
+    </div>
+  </div>
+  <Container>
+    <div class="relative pt-36 ml-auto">
+      <div class="lg:w-2/3 text-center mx-auto">
+        <img
+          src="./images/logo.png"
+          class="h-32 w-auto mx-auto"
+          loading="lazy"
+          alt="duck logo"
+          width=""
+          height=""
+        />
+        <h1
+          class="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl"
+        >
+          Programmers Codeposting
+        </h1>
+        <p class="mt-8 text-gray-700 dark:text-gray-300">
+          A portal where professionals, educators and students collaborate to
+          bridge the technology gap across industries and academes.
+        </p>
+        <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
+          <a
+            href="https://www.facebook.com/groups/ProgrammersCodepostingPH"
+            class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-blue-600 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+          >
+            <span class="relative text-base font-semibold text-white"
+              >Facebook Group</span
+            >
+          </a>
+          <a
+            href="https://www.facebook.com/ProgrammersCodepostingPH"
+            class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-blue-600 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+          >
+            <span class="relative text-base font-semibold text-white"
+              >Facebook Page</span
+            >
+          </a>
+          <a
+            href="https://discord.com/invite/PKDABY8"
+            class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-indigo-400 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+          >
+            <span
+              class="relative text-base font-semibold text-primary dark:text-white"
+              >Discord</span
+            >
+          </a>
+        </div>
+      </div>
+    </div>
+  </Container>
+</div>
